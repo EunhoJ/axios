@@ -1,0 +1,16 @@
+{
+  "name": "axios",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "app": "node --watch app.js",
+    "post": "node --watch products/controller.product.js"
+  },
+  "dependencies": {
+    "axios": "^1.9.0"
+  }
+}
